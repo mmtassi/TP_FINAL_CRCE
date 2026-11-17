@@ -6,15 +6,7 @@ from .excepciones import OperacionAvisoInvalida
 
 
 class Aviso:
-    def __init__(
-        self,
-        ubicacion,
-        tipo_situacion,
-        gravedad_estimada,
-        descripcion,
-        reportante,
-        fecha_registro
-    ):
+    def __init__(self, ubicacion, tipo_situacion, gravedad_estimada, descripcion, reportante, fecha_registro):
         self.ubicacion = ubicacion
         self.tipo_situacion = tipo_situacion
         self.gravedad_estimada = gravedad_estimada
