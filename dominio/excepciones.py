@@ -1,0 +1,2 @@
+class OperacionAvisoInvalida(Exception):
+    pass
